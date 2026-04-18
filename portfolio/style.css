@@ -1,0 +1,67 @@
+body {
+    font-family: Roboto,Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(19, 18, 18);
+    color:#fff;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(35, 3, 46);
+    padding:10px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+.profile-pic {
+    flex: 1;
+    text-align: center;
+    margin:0;
+}
+.my_pp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0;
+}
+.intro {
+    flex: 2;
+    padding-left: 5px;
+}
+.intro h1 {
+    margin-bottom: 10px;
+}
+.skills {
+    margin-top: 20px;
+    
+}
+.skill{
+    display:inline-block;
+    width:49%;
+    vertical-align: top;
+
+}
+a{
+    color:aquamarine
+}
+
+.socials ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.socials a {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    align-items: center;
+    justify-content: space-between;
+}

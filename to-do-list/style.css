@@ -102,11 +102,27 @@ ul li .task-text{
     flex: 1;
     cursor: pointer;
 }
-ul li .delete-btn{
+ul li .task-action-btn{
+    background: transparent;
+    border: none;
     cursor: pointer;
-    font-size: 1.5rem;
-    color: #ff4d4d;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 10px;
+}
+ul li .task-action-btn svg{
+    pointer-events: none;
+}
+ul li .edit-btn{
+    color: #4d7dff;
+}
+ul li .edit-btn:hover{
+    color: #1f4fd1;
+}
+ul li .delete-btn{
+    color: #ff4d4d;
 }
 ul li .delete-btn:hover{
     color: #cc0000;

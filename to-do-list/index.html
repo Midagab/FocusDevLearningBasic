@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My to do list</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-10 h-10 text-blue-600"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+            <h1>To-Do List</h1>
+        </div>
+        <p class="motto">Stay organized and productive</p>
+        <div class="form-container">
+            <form id="form" class="form">
+                <input type="text" placeholder="Add a new task..." id="input-box" class="input">
+                <button type="submit" class="btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-5 h-5"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>Add
+                </button>
+            </form>
+        </div>
+        <div class="list-status">
+            <div class="active">
+                <p>Active</p>
+            </div>
+            <div class="completed">
+                <p>Completed</p>
+            </div>
+            <div class="total">
+                <p>Total</p>
+            </div>
+        </div>
+        <ul class="list-container" id="task-container">
+            
+              
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
